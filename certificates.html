@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificates | Sumit Mishra</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Poppins:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="cursor-follower" id="cursor"></div>
+    <div class="cursor-dot" id="cursorDot"></div>
+    <canvas id="particles"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span class="logo-bracket">&lt;</span>
+                <span class="logo-text">SM</span>
+                <span class="logo-bracket">/&gt;</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html" class="nav-link" data-text="Home">Home</a></li>
+                <li><a href="about.html" class="nav-link" data-text="About">About</a></li>
+                <li><a href="projects.html" class="nav-link" data-text="Projects">Projects</a></li>
+                <li><a href="certificates.html" class="nav-link active" data-text="Certificates">Certificates</a></li>
+                <li><a href="contact.html" class="nav-link" data-text="Contact">Contact</a></li>
+            </ul>
+            <div class="nav-toggle" id="navToggle">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="page-header-content">
+            <span class="section-tag">&lt;certificates /&gt;</span>
+            <h1 class="page-title">My <span class="gradient-text">Certificates</span></h1>
+            <p class="page-subtitle">Professional certifications and achievements</p>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section class="certificates-section">
+        <div class="section-container">
+            <div class="cert-grid">
+
+                <!-- Certificate 1 -->
+                <div class="cert-card" data-tilt>
+                    <div class="cert-glow"></div>
+                    <div class="cert-badge">
+                        <i class="fab fa-google"></i>
+                    </div>
+                    <div class="cert-content">
+                        <div class="cert-provider">
+                            <span class="provider-logo">☁️</span>
+                            <div>
+                                <h4>Google Cloud</h4>
+                                <span>via Simplilearn SkillUp</span>
+                            </div>
+                        </div>
+                        <h3 class="cert-title">Introduction to Generative AI Studio</h3>
+                        <p class="cert-description">Comprehensive course covering AI fundamentals, Generative AI concepts, and hands-on experience with Google Cloud's AI Studio platform.</p>
+                        <div class="cert-meta">
+                            <div class="meta-item">
+                                <i class="fas fa-calendar-alt"></i>
+                                <span>30th January 2026</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-hashtag"></i>
+                                <span>Certificate: 9781649</span>
+                            </div>
+                        </div>
+                        <div class="cert-skills">
+                            <span>Generative AI</span>
+                            <span>Google Cloud</span>
+                            <span>AI Studio</span>
+                            <span>Machine Learning</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certificate 2 -->
+                <div class="cert-card" data-tilt>
+                    <div class="cert-glow"></div>
+                    <div class="cert-badge">
+                        <i class="fab fa-microsoft"></i>
+                    </div>
+                    <div class="cert-content">
+                        <div class="cert-provider">
+                            <span class="provider-logo">📊</span>
+                            <div>
+                                <h4>Microsoft</h4>
+                                <span>via Simplilearn SkillUp</span>
+                            </div>
+                        </div>
+                        <h3 class="cert-title">Introduction to MS Excel</h3>
+                        <p class="cert-description">Complete course on Microsoft Excel covering formulas, functions, data analysis, charts, pivot tables, and advanced spreadsheet management.</p>
+                        <div class="cert-meta">
+                            <div class="meta-item">
+                                <i class="fas fa-calendar-alt"></i>
+                                <span>31st January 2026</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-hashtag"></i>
+                                <span>Certificate: 9786546</span>
+                            </div>
+                        </div>
+                        <div class="cert-skills">
+                            <span>MS Excel</span>
+                            <span>Data Analysis</span>
+                            <span>Formulas</span>
+                            <span>Pivot Tables</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- More Certs Coming Soon -->
+            <div class="cert-coming-soon">
+                <div class="coming-soon-card">
+                    <div class="pulse-ring"></div>
+                    <i class="fas fa-rocket"></i>
+                    <h3>More Certifications Coming Soon!</h3>
+                    <p>Currently learning and preparing for more professional certifications in web development and cloud technologies.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-wave">
+            <svg viewBox="0 0 1440 100" preserveAspectRatio="none">
+                <path d="M0,50 C360,100 720,0 1080,50 C1260,75 1380,60 1440,50 L1440,100 L0,100 Z" fill="currentColor"></path>
+            </svg>
+        </div>
+        <div class="footer-container">
+            <div class="footer-bottom">
+                <p>&copy; 2025 Sumit Mishra. All rights reserved. Built with ❤️ & ☕</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

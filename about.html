@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Sumit Mishra</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Poppins:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="cursor-follower" id="cursor"></div>
+    <div class="cursor-dot" id="cursorDot"></div>
+    <canvas id="particles"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span class="logo-bracket">&lt;</span>
+                <span class="logo-text">SM</span>
+                <span class="logo-bracket">/&gt;</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html" class="nav-link" data-text="Home">Home</a></li>
+                <li><a href="about.html" class="nav-link active" data-text="About">About</a></li>
+                <li><a href="projects.html" class="nav-link" data-text="Projects">Projects</a></li>
+                <li><a href="certificates.html" class="nav-link" data-text="Certificates">Certificates</a></li>
+                <li><a href="contact.html" class="nav-link" data-text="Contact">Contact</a></li>
+            </ul>
+            <div class="nav-toggle" id="navToggle">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="page-header-content">
+            <span class="section-tag">&lt;about /&gt;</span>
+            <h1 class="page-title">About <span class="gradient-text">Me</span></h1>
+            <p class="page-subtitle">Get to know the developer behind the code</p>
+        </div>
+    </section>
+
+    <!-- About Content -->
+    <section class="about-section">
+        <div class="section-container">
+            <div class="about-grid">
+                <div class="about-image-container">
+                    <div class="about-image-wrapper">
+                        <div class="about-image-placeholder">
+                            <span class="placeholder-icon">👨‍💻</span>
+                            <div class="image-border-anim"></div>
+                        </div>
+                    </div>
+                    <div class="experience-badge">
+                        <span class="exp-number">15+</span>
+                        <span class="exp-text">Projects Built</span>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h2>I'm <span class="gradient-text">Sumit Mishra</span></h2>
+                    <h3 class="about-role">BCA Student & Frontend Web Developer</h3>
+                    <p>I'm a passionate web developer currently pursuing my BCA degree. My journey in tech began with curiosity about how websites work, and it quickly turned into a deep passion for creating beautiful, functional web experiences.</p>
+                    <p>I specialize in building responsive, interactive websites using HTML5, CSS3, and JavaScript. I love transforming ideas into pixel-perfect, user-friendly interfaces that make people go "WOW!"</p>
+                    <p>When I'm not coding, you'll find me exploring new technologies, contributing to open source, or sharing my journey on Instagram <a href="https://instagram.com/webcrafted_by_sumit" target="_blank" class="inline-link">@webcrafted_by_sumit</a>.</p>
+                    
+                    <div class="about-info-grid">
+                        <div class="info-item">
+                            <span class="info-label">Name:</span>
+                            <span class="info-value">Sumit Mishra</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Email:</span>
+                            <span class="info-value">sumitmishr2904@gmail.com</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Phone:</span>
+                            <span class="info-value">+91 8851540271</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Education:</span>
+                            <span class="info-value">BCA (Pursuing)</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Location:</span>
+                            <span class="info-value">India 🇮🇳</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Freelance:</span>
+                            <span class="info-value available">Available</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills-section">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-tag">&lt;skills /&gt;</span>
+                <h2 class="section-title">My <span class="gradient-text">Skills</span></h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card" data-aos="fade-up">
+                    <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                    <h4>HTML5</h4>
+                    <div class="skill-bar"><div class="skill-progress" data-width="95"></div></div>
+                    <span class="skill-percent">95%</span>
+                </div>
+                <div class="skill-card" data-aos="fade-up">
+                    <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+                    <h4>CSS3</h4>
+                    <div class="skill-bar"><div class="skill-progress" data-width="90"></div></div>
+                    <span class="skill-percent">90%</span>
+                </div>
+                <div class="skill-card" data-aos="fade-up">
+                    <div class="skill-icon"><i class="fab fa-js-square"></i></div>
+                    <h4>JavaScript</h4>
+                    <div class="skill-bar"><div class="skill-progress" data-width="80"></div></div>
+                    <span class="skill-percent">80%</span>
+                </div>
+                <div class="skill-card" data-aos="fade-up">
+                    <div class="skill-icon"><i class="fas fa-code"></i></div>
+                    <h4>C / C++</h4>
+                    <div class="skill-bar"><div class="skill-progress" data-width="70"></div></div>
+                    <span class="skill-percent">70%</span>
+                </div>
+                <div class="skill-card" data-aos="fade-up">
+                    <div class="skill-icon"><i class="fab fa-python"></i></div>
+                    <h4>Python</h4>
+                    <div class="skill-bar"><div class="skill-progress" data-width="65"></div></div>
+                    <span class="skill-percent">65%</span>
+                </div>
+                <div class="skill-card" data-aos="fade-up">
+                    <div class="skill-icon"><i class="fab fa-git-alt"></i></div>
+                    <h4>Git & GitHub</h4>
+                    <div class="skill-bar"><div class="skill-progress" data-width="80"></div></div>
+                    <span class="skill-percent">80%</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline -->
+    <section class="timeline-section">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-tag">&lt;journey /&gt;</span>
+                <h2 class="section-title">My <span class="gradient-text">Journey</span></h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>🎓 Started BCA</h3>
+                        <span class="timeline-date">2023</span>
+                        <p>Began my Bachelor's in Computer Applications, diving deep into programming and web technologies.</p>
+                    </div>
+                </div>
+                <div class="timeline-item right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>💻 First Website</h3>
+                        <span class="timeline-date">2024</span>
+                        <p>Built my first complete website — an Instagram clone & Spotify clone using HTML & CSS.</p>
+                    </div>
+                </div>
+                <div class="timeline-item left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>🚀 JavaScript Mastery</h3>
+                        <span class="timeline-date">2024</span>
+                        <p>Learned JavaScript and built interactive apps — Weather App, Todo App, and API projects.</p>
+                    </div>
+                </div>
+                <div class="timeline-item right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>🤖 AI Project Launch</h3>
+                        <span class="timeline-date">2025</span>
+                        <p>Built NewsFlash AI — an AI-powered news summarizer deployed on Render. Entered the world of AI integration.</p>
+                    </div>
+                </div>
+                <div class="timeline-item left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>📜 Certifications</h3>
+                        <span class="timeline-date">2026</span>
+                        <p>Earned Google Cloud Generative AI & Microsoft Excel certifications from Simplilearn SkillUp.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-wave">
+            <svg viewBox="0 0 1440 100" preserveAspectRatio="none">
+                <path d="M0,50 C360,100 720,0 1080,50 C1260,75 1380,60 1440,50 L1440,100 L0,100 Z" fill="currentColor"></path>
+            </svg>
+        </div>
+        <div class="footer-container">
+            <div class="footer-bottom">
+                <p>&copy; 2025 Sumit Mishra. All rights reserved. Built with ❤️ & ☕</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
